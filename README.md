@@ -1,3 +1,16 @@
+# Mi Primera API FastAPI
+
+## ¿Qué hace?
+
+Una API básica creada en el Bootcamp FastAPI Semana 1.
+
+## ¿Cómo ejecutar?
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
 # Mi Primera API FastAPI - Bootcamp
 
 **👤 Desarrollador**: Miguel David Triviño López
@@ -43,3 +56,11 @@ uvicorn main:app --reload --port 8000
 - Si Git no funciona: verificar `git config user.name` y `git config user.email`
 - Si necesitas cambiar el email: usar el email privado de GitHub desde Settings → Emails
 
+## ¿Qué fue lo que mas te sorprende de crear tu primera API?
+
+Lo que más me sorprendió al crear mi primera API fue la cantidad de comandos y pasos necesarios incluso para levantar una API básica en un servidor local. Me impresionó cómo, con solo unas pocas líneas de código y la configuración adecuada, es posible crear un servicio que responda a peticiones en tiempo real.
+
+
+## ¿Qué aprendí?
+
+Gracias a lo que hice hoy, aprendí conceptos básicos de FastAPI, los comandos necesarios para levantar un servidor local y, sobre todo, cómo crear un entorno virtual y configurar Git para trabajar en un equipo compartido de forma organizada.   
