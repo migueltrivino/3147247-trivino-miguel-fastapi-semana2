@@ -1,15 +1,4 @@
-# Mi Primera API FastAPI
-
-## ¿Qué hace?
-
-Una API básica creada en el Bootcamp FastAPI Semana 1.
-
-## ¿Cómo ejecutar?
-
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
+# Mi API FastAPI - Semana 2
 
 # Mi Primera API FastAPI - Bootcamp
 
@@ -56,27 +45,6 @@ uvicorn main:app --reload --port 8000
 - Si Git no funciona: verificar `git config user.name` y `git config user.email`
 - Si necesitas cambiar el email: usar el email privado de GitHub desde Settings → Emails
 
-## ¿Qué fue lo que mas te sorprende de crear tu primera API?
-
-Lo que más me sorprendió al crear mi primera API fue la cantidad de comandos y pasos necesarios incluso para levantar una API básica en un servidor local. Me impresionó cómo, con solo unas pocas líneas de código y la configuración adecuada, es posible crear un servicio que responda a peticiones en tiempo real.
-
-
-## ¿Qué aprendí?
-
-Gracias a lo que hice hoy, aprendí conceptos básicos de FastAPI, los comandos necesarios para levantar un servidor local y, sobre todo, cómo crear un entorno virtual y configurar Git para trabajar en un equipo compartido de forma organizada.   
-
-## ¿Los type hints hacen tu código más claro? ¿Por qué?
-
-En mi opinion los type hints si hacen mas claro el codigo ya que brindan a la persona que lee este mismo una mayor claridad de que tipo de dato se espera que reciba y devuelva la función 
-
-## ¿Cómo te ayuda Pydantic a crear APIs más robustas?
-
-Esto me podria ayudar a crear APIs mas robostas porque, tener la posibilidad de validar los datos que llegan a mi API me ayuda en el momento que el usuario digite información incorrecta por ejemplo, que yo pida la edad y el usuario digite letras, lo que hace pydantic es decirte exactamente que esta mal 
-
-## ¿Cómo mejoraron estos conceptos tu API comparada con Semana 1?
-
-Mis conceptos mejoraron ya que en este momento se muchos mas conceptos acerca de fastAPI y reforce conocimientos anteriores, ademas esto se ve reflejado en el resultado final de esta API ya que cuenta con funciones mas utiles e interesantes para el usuario
-
 # Mi API FastAPI - Semana 2
 
 ## ¿Qué hace?
@@ -97,6 +65,18 @@ API mejorada con validación automática de datos y type hints.
 pip install fastapi pydantic uvicorn
 uvicorn main:app --reload
 ```
+
+## ¿Los type hints hacen tu código más claro? ¿Por qué?
+
+En mi opinion los type hints si hacen mas claro el codigo ya que brindan a la persona que lee este mismo una mayor claridad de que tipo de dato se espera que reciba y devuelva la función 
+
+## ¿Cómo te ayuda Pydantic a crear APIs más robustas?
+
+Esto me podria ayudar a crear APIs mas robostas porque, tener la posibilidad de validar los datos que llegan a mi API me ayuda en el momento que el usuario digite información incorrecta por ejemplo, que yo pida la edad y el usuario digite letras, lo que hace pydantic es decirte exactamente que esta mal 
+
+## ¿Cómo mejoraron estos conceptos tu API comparada con Semana 1?
+
+Mis conceptos mejoraron ya que en este momento se muchos mas conceptos acerca de fastAPI y reforce conocimientos anteriores, ademas esto se ve reflejado en el resultado final de esta API ya que cuenta con funciones mas utiles e interesantes para el usuario
 
 ## [Escribe 2-3 oraciones sobre qué fue lo más útil de esta semana]
 
